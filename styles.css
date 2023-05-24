@@ -196,7 +196,7 @@ header nav ul li a {
     height: auto;
     background: var(--bg);
     padding: 0rem;
-    margin: 0rem 0rem 3rem 0rem;
+    margin: 1rem 0rem 3rem 0rem;
 }
 
 .mission-statement img {
@@ -465,4 +465,10 @@ footer .logo img {
         justify-content: space-around;
     }
 
+}
+
+@media screen and (max-width:500px) {
+    .people-grid {
+        grid-template-columns: 1fr;
+    }
 }
